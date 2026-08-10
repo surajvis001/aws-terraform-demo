@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "cloud-crafter-s3-bucket1"
+  bucket = "cloud-crafter-s3-bucket12"
 
   tags = {
     Name        = "My S3 Bucket"
