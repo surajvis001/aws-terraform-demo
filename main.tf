@@ -1,11 +1,11 @@
-# resource "aws_s3_bucket" "example" {
-#   bucket = "cloud-crafter-s3-bucket"
+resource "aws_s3_bucket" "example" {
+  bucket = "cloud-crafter-s3-bucket1"
 
-#   tags = {
-#     Name        = "My S3 Bucket"
-#     Environment = "dev"
-#   }
-# }
+  tags = {
+    Name        = "My S3 Bucket"
+    Environment = "dev"
+  }
+}
 
 # # Enable versioning
 # resource "aws_s3_bucket_versioning" "example" {
