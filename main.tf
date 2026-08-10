@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "my-unique-terraform-s3-bucket-12345"
+  bucket = "cloud-crafter-s3-bucket"
 
   tags = {
     Name        = "My S3 Bucket"
